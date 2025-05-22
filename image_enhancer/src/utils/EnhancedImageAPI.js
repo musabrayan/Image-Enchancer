@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // API configuration
-const API_KEY = 'wxkks93z7oigbacr2';
+const API_KEY = import.meta.env.VITE_API_KEY;
 const BASE_URL = 'https://techhk.aoscdn.com';
 
 export const enhancedImageAPI = async (file) => {
