@@ -30,7 +30,7 @@ const ImageUpload = (props) => {
           
           {/* Upload instruction text */}
           <span className="text-lg font-medium text-gray-600">
-            Click and drag to upload your image
+            Click to upload your image
           </span>
         </label>
       </div>
