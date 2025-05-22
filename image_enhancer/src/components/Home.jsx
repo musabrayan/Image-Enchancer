@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ImageUpload from './ImageUpload';
 import ImagePreview from './ImagePreview';
-import { enhancedImageAPI } from '../utils/enhancedImageAPI';
+import { enhancedImageAPI } from '../utils/EnhancedImageAPI.js';
 
 
 const Home = () => {
